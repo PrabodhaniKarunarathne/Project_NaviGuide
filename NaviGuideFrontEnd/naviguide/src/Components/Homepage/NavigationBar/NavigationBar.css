@@ -1,0 +1,114 @@
+.navbar{
+    display: flex;
+    
+}
+
+.div1{
+    display: flex;
+}
+
+.listnav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+
+
+.navBar{
+    width:100%;
+    background-color:#032e4b ;
+    height: auto;
+    display: flex;
+    opacity: 90%;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    
+   }
+
+
+  .link {
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px; 
+    font-size: medium;
+    font-weight: bold;
+    
+  }
+
+  
+  li a:hover:not(.active) {
+    background-color:white;
+    color: #2c7a7c;
+    font-weight: bold;
+    
+    
+  }
+
+ 
+  .link1 {
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+     
+  }
+
+.login,
+.signup {
+    
+    
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    font-size: medium;
+    margin: auto;
+    padding: 1.2vh 2vh;
+    margin: 1vh 1vh 1vh 1vh;
+    width: 25vh;
+    background: #38A3A5;
+    border-radius: 25px;
+    border: 0px;
+    color: #E3F1E7;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.5s ease;
+    text-decoration: none;
+
+}
+
+  
+  
+  
+  .login:hover,
+  .signup:hover {
+    transform: scale(1.025);
+  }
+  
+  .login:active,
+  .signup:active {
+    transform: scale(0.975); 
+  }
+  .login.active,
+.signup.active {
+    background: #2c7a7c; 
+    color: white; 
+  }
+
+
+.div2{
+  width: auto;
+  margin-right: 0;
+  margin-left: auto;
+  overflow: hidden;
+  float: left;
+  padding:0;
+}

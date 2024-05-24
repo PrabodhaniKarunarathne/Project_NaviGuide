@@ -1,0 +1,18 @@
+#version: '3.1'
+#
+#services:
+#  application:
+#    image: your-application-image  # Use the image name you specified during the build
+#    ports:
+#      - "8080:8080"  # Map port 8080 in the container to port 8080 on the host
+#    depends_on:
+#      - redis
+#    networks:
+#      - default
+#
+#  redis:
+#    image: "redis:alpine"
+#    ports:
+#      - "6379:6379"
+#    networks:
+#      - default

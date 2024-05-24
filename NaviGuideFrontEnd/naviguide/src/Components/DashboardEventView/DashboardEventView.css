@@ -1,0 +1,308 @@
+.eventcard{
+    text-align: left;
+    margin: 1% 15% 1% 15%;
+    border-style: solid;
+    padding: 0px 30px 30px 30px;
+    border-color: #bababa;
+    border-radius: 20px;
+}
+
+#formdivevent{
+    display: flex;
+}
+
+.errorinschedule{
+    text-align: center;
+}
+#eventcardnew{
+    text-align: left;
+    margin: 1% 15% 1% 15%;
+    border-style: solid;
+    padding: 0px 30px 30px 30px;
+    border-color: #bababa;
+    border-radius: 20px;
+    display: flex;
+}
+
+#neweventform{
+    width: 100vh;
+}
+
+
+#neweventform{
+    width: 100vh;
+}
+
+
+
+.inputssingleevd{
+    width:142vh;
+    background-color: white;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 1vh 0 1vh 0;
+    outline: none; 
+    background-color: #ffffff;
+    border-width: 2px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+
+}
+
+.inputssingle:focus{
+    width:75vh;
+    background-color: white;
+}
+
+
+
+.eventnameheduled{
+    text-align: left;
+    margin:1% 0 0 0;
+    font-size: 3vh;
+    color: #0b5698;
+}
+
+.eventcard h5{
+    color: #bababa;
+   
+}
+
+#eventDetails{
+    margin: 1vh 0vh 1vh 0vh;
+
+}
+
+#eventDetails p{
+    text-align: justify;    
+}
+
+.eventcard img{
+    width:100%;
+}
+
+#devbtndiv{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#btnsaveevent{
+    align-items: center;
+    width:145vh;
+
+}
+
+#closebtnevent{
+    background-color: #e60e0e;
+    width: 25vh;
+    margin-top: 1vh;
+    margin-left: 118vh;
+    align-self: right;
+
+}
+
+#compbtn{
+    align-self: center;
+    margin-top: 1vh;
+    padding: 1.2vh 2vh;
+    width:30vh;
+    background: #38A3A5;
+    border-radius: 25px;
+    border: 0px;
+    color: #E3F1E7;
+    margin-right: 1vh;
+    margin-right: 0vh;
+
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.5s ease;
+}
+
+#dlbtn{
+    background-color: #e60e0e;
+    width: 30vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    align-self: right;
+    padding: 1.2vh 2vh;
+
+}
+
+.devbtn {    
+    align-self: center;
+    margin: 1vh  ;
+    padding: 1.2vh 2vh;
+    background: #38A3A5;
+    width: 30%;
+    border-radius: 25px;
+    border: 0px;
+    color: #E3F1E7;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.5s ease;
+}
+
+#sebtn{
+    align-self: center;
+}
+
+
+.devbtn:hover { 
+  background: #2c7a7c; 
+  transform: scale(1.05); 
+}
+
+
+.devbtn:active {
+    transform: scale(0.95); 
+    background: #38A3A5;
+}
+
+
+
+.editeventbtn {    
+    align-self: right;
+    margin: 0;
+    border-radius: 25px;
+    border: 0px;
+    color: #38A3A5;
+    background-color: white;
+    font-size: 2.5vh;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.5s ease;
+}
+
+#eventNameSchedule{
+    display:flex ;
+}
+
+#eventNameSchedule h1{
+    width: 400px;
+}
+
+#completeevent{
+    margin-left: 37vh;
+}
+
+#completeeventbtndeletediv{
+    display: flex;
+    margin-left: 10vh;
+}
+
+#completebtnevent{
+    width: 25vh;
+    margin-top: 3vh;
+    margin-right: 3vh;
+    margin-left: 15vh;    
+}
+
+#yesbtn{
+    width: 25vh;
+    margin-top: 3vh;
+    margin-right: 0;
+    
+}
+
+#completeevent p{
+    width:65vh;
+}
+
+.yesnodiv{
+    display: flex;
+}
+
+
+#nobtn{
+    width: 25vh;
+    margin-top: 3vh;
+    align-self: right;
+    background-color: #e60e0e;
+    margin-left: 2vh;
+
+}
+
+#deletebtnevent{
+    margin-top: 3vh;
+    width: 25vh;
+    margin-left: 0vh;
+    background-color: #e60e0e;
+
+}
+
+
+
+#deletebtneventcompleted{
+    margin-top: 3vh;
+    width: 25vh;
+    margin-left: 2vh;
+    margin-right: 0;
+    background-color: #e60e0e;
+}
+
+.editeventbtn:hover { 
+  color: #2c7a7c; 
+}
+
+#namesandbtn{
+    width:1000px;
+}
+.editeventbtn:active {
+    color: #38A3A5;
+}
+
+/*Setting Basic Dimensions to give 
+    gallery view */
+    .containerimg {
+        margin: 0 auto;
+        width: 95%;
+    }
+     
+    .main_view {
+        width: 100%;
+        height: 25rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+     
+    .main_view img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     
+    .side_view {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+     
+    .side_view img {
+        width: 7rem;
+        height: 7rem;
+        object-fit: cover;
+        cursor: pointer;
+        margin: 0.5rem;
+    }
+
+    .picdiv{
+        display: flex;
+      
+
+    }
+
+    .picdiv img{
+        width: 7rem;
+        height: 7rem;
+        object-fit: cover;
+        cursor: pointer;
+        margin: 0.5rem;
+    }

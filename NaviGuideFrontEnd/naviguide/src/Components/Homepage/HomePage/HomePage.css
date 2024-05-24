@@ -1,0 +1,49 @@
+.home-section{
+    background: linear-gradient(0deg,#C7F9CC,#57CC99,#80ED99,#38A3A5,#22577a);
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    
+  }
+  
+  #home-navBar{
+    position: absolute;
+    z-index: 100000;
+  }
+
+  
+  #home-title{
+    position: inherit;
+  }
+
+  #home-search{
+    margin-top: 20vh;
+    height: fit-content;
+  }
+
+  #home-slide {
+    position: relative; /* Change to relative positioning */
+    margin-top: 20vh; /* Adjust the margin to create space between the search bar and slideshow */
+    margin-bottom: 10%; /* Keep the bottom margin */
+  }
+  
+
+
+  #home-about{
+    padding-top: 10%;
+    margin-bottom: 5%;
+    position: inherit;
+    
+  }
+
+  #home-news{
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
+
+  #home-contact{
+    position: relative;
+    
+  }
+
+  

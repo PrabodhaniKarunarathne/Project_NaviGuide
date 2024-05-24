@@ -1,0 +1,191 @@
+#searchdiv {
+  margin-top: 5vh; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#searchformdiv{
+  margin-top: 1rem; 
+  display: flex;
+  justify-content: center;
+  
+}
+#paranoresult{
+  text-align: center;
+  margin-top: 3vh;
+  color: #e60e0e;
+}
+#searchform {
+  align-items: center;
+  text-align: center;
+}
+
+#searchByCat {
+  padding: 8px 12px 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#searchByCat:focus {
+  outline: none;
+  border-color: #007bff; 
+}
+
+input[type="submit"] {
+    margin: 0 10px;
+    padding: 1.2vh 2vh;
+    background: #38A3A5;
+    border-radius: 25px;
+    border: 0px;
+    color: #E3F1E7;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.5s ease;
+}
+
+input[type="submit"]:hover {
+  background: #2c7a7c; 
+}
+
+input[type="submit"]:active {
+  transform: scale(0.95); 
+
+}
+
+.stats{
+
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+
+
+.imageandtxtcontainer{
+  display: flex;
+}
+.articles{
+font-size:10px;
+color: #a1aab9;
+}
+
+
+
+.rating{
+  font-size:22px;
+  color: #a1aab9;
+  margin: 1px;
+
+}
+.number3,.number2,.number1{
+font-weight:500;
+font-size: 14;
+margin-left: 10px;
+}
+
+.profdetails{
+display: flex;
+align-items: left;
+}
+
+.container {
+margin-top: 5rem; 
+display: flex;
+justify-content: center;
+}
+
+.card {
+padding: 1.5rem;
+background-color:#E3F1E7 ;
+
+width: fit-content;
+box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+border-radius: 0.5rem;
+}
+
+.image{
+align-items: left;
+width: 170px;
+height: fit-content;
+}
+
+.image img {
+border-radius: 0.5rem;
+margin-right: 10px;
+width: 155px;
+}
+
+.innerdetails{
+margin-left: 1.5rem; /* Adjust margin as needed */
+width: 80vh;
+flex: left;
+}
+
+.mb-0 {
+margin-bottom: 0;
+font-size: 20px;
+}
+
+.mt-0 {
+margin-top: 0;
+}
+
+.p-2{
+  border-radius:10px ;
+}
+
+
+
+.button {
+margin-top: 0.5rem; 
+display: flex;
+flex-direction: row;
+align-items: center;
+text-decoration: none;
+}
+
+#propicsearch{
+  margin-top: 0;
+}
+
+.button button {
+width: 100%;
+text-decoration: none;
+width: fit-content;
+}
+
+.button button + button {
+margin-left: 0.5rem;
+text-decoration: none;
+ 
+}
+
+#linkprofile{
+  text-decoration: none;
+  color: #E3F1E7;
+  width:5vh;
+}
+
+#linkprofile:active{
+  text-decoration: none;
+  color: #E3F1E7;
+  background-color:#38A3A5 ;
+  width:5vh;
+}
+
+#linkprofile:hover{
+  text-decoration: none;
+  color: #E3F1E7;
+  background-color:#2c7a7c ;
+  width:5vh;
+}
+
+.viewlink:hover{
+  color: #E3F1E7;
+  width:5vh;
+  background-color:#2c7a7c ;
+
+}
+

@@ -1,0 +1,45 @@
+#notification{
+    display: flex;
+}
+
+.Notification{
+    margin-top: 0.15vh;
+    margin-right: 0vh;
+
+
+}
+
+.Notification h3{
+    margin-top: 1.70vh;
+    font-size: 18px;
+
+
+}
+
+#notify{
+    margin-top: 1vh;
+    width:35px
+}
+
+#btnNoty{
+    border: none;
+    background-color: none;
+}
+
+#btnNoty{
+    border: none;
+    background-color: none;
+    transition: background-color 0.5s, transform 0.5s ease;
+}
+
+#btnNoty:hover{
+  transform: scale(1.025);
+}
+
+#btnNoty:active {
+  transform: scale(0.975); 
+}
+#btnNoty.active {
+  background: #2c7a7c; 
+  color: white; 
+}

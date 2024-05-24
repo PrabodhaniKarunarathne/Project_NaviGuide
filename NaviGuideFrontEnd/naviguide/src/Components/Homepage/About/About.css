@@ -1,0 +1,38 @@
+.about{
+    
+
+}
+
+p{
+    text-align: justify;
+    color: #27475c;
+    font-weight: bold;
+    padding:1% 5%;
+
+}
+
+#eventcardabout{
+    width: auto;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-style: solid;
+    padding: 0px 30px 30px 30px;
+    border-color: #032e4b;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+#eventcardabout h1{
+    color: #032e4b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#eventcardabout h5{
+    color: #22577A;
+   
+}
+

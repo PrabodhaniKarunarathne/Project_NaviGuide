@@ -1,0 +1,12 @@
+
+input[type="radio"] {
+    display: none;
+}
+
+.stars {
+    cursor: pointer;
+    font-size: 2rem; /* Adjust the font-size here to make the stars larger */
+    margin: 5px;
+    color: #ffc107; /* Change this color to the desired default color */
+
+}

@@ -1,0 +1,57 @@
+.photo-slideshow {
+  text-align: center;
+ 
+  
+}
+
+.slideshow-container {
+  opacity: 80%;
+  position: relative;
+  margin-left: 24%;
+  margin-right: 24%;
+
+  width: 52%;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+ 
+  
+  
+}
+
+.mySlides {
+  display: none; /* Hide all slides initially */
+  position: relative;
+}
+
+.show {
+  display: block; /* Display the current slide */
+}
+
+.hide {
+  display: none; /* Hide slides not being shown */
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+
+
+
+.slide-image {
+  display: block;
+  width: 1000px ; 
+  height: 400px; 
+  align-items: center;
+  object-fit: cover;
+}

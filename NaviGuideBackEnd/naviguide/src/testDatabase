@@ -1,0 +1,16 @@
+{
+	{
+		"userid":"usr1234",
+        "firstName":"sineth",
+        "lastName":"wickramasinghe",
+        "phoneNumber":"0701731320",
+        "altPhoneNumber":"0372266348",
+        "organizationName":"Some1",
+        "email":"sineth21404@gmail.com",
+        "accCategory":"AwareDrugs",
+        "proffesion":"SE",
+        "userName":"sineth21404",
+        "password":"21404",
+        "userType":"RP",
+	}
+}

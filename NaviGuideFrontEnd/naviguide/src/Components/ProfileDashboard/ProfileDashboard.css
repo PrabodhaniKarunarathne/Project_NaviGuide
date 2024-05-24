@@ -1,0 +1,63 @@
+.pdbtn {
+    padding: 1.2vh 2vh;
+    margin: 30vh 7vh 0vh 7vh;
+    width: 60vh;
+    background: #38A3A5;
+    border-radius: 25px;
+    border: 0px;
+    color: #E3F1E7;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: background-color 0.5s, transform 0.5s ease;
+    text-decoration: none;
+  }
+  
+  
+  
+  .pdbtn:hover {
+    transform: scale(1.025);
+  }
+  
+  .pdbtn:active {
+    transform: scale(0.975); 
+  }
+  .pdbtn.active {
+    background: #2c7a7c; 
+    color: white; 
+  }
+  #pvtabbtnsstake{
+    display: flex;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left:35vh;
+    margin-top: 20px;
+  }
+
+  #pvtabbtnsprofile{
+    display: flex;
+    align-items: center;
+    margin-right: 35vh;
+    margin-left:35vh;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    
+  }
+
+ 
+
+  #pvtabbtns{
+    display: flex;
+    align-items: center;
+    margin-right: 15vh;
+    margin-left:15vh;
+  
+    
+  }
+
+  
+
+  
+ #pvevents hr,.profileViewContainer hr{
+   border-top: 5px solid #38A3A5;
+  }

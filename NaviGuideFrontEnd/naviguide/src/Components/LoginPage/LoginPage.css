@@ -1,0 +1,181 @@
+#LoginSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(227,241,231);
+  background: linear-gradient(45deg, rgba(227,241,231,1) 51%, rgba(56,163,165,1) 95%);
+}
+
+
+
+#LoginComponent{
+    display: flex;
+    background-color: #38A3A5;
+    width: 75%;
+    height: 70vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.107);
+    border-radius: 20px;
+  
+  }
+
+#stake{
+  display: inline;
+}  
+#resource{
+  display: inline;
+
+}
+#logimage{
+  text-align: center;
+  width: 50%;
+  margin-top: 20vh;
+}
+
+#logimage h1{
+  font-size: 12vh;
+  color: #112d3f;
+}
+
+#logimage div{
+  align-items: center;
+}
+
+#logimage h3{
+  color: #112d3fc6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4vh;
+
+}
+
+#LoginFormDiv{
+  padding: 20px;
+  width: 50%;
+}
+
+#LoginFormDiv form{
+  padding: 10px;
+  background-color: #E3F1E7  ;
+  height: 64.5vh;
+  border-radius: 15px;
+
+}
+
+#formelements{
+  margin-top: 5vh;
+}
+
+#topic_Login h2{
+  margin:2vh 1vh 4vh 1vh;
+  text-align: center;
+  color: #112d3f;
+}  
+
+#inputs_Login{
+  margin:0vh 2.5vh 0vh 2.5vh;
+}
+
+.input{
+  margin-left: 1.5vh;
+}
+
+.input label{
+  display: block;
+  color: #112d3f;
+  font-weight: 600;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+.input input,
+.input input {
+  font-weight: 450;
+  width: 96%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 1vh 0 1vh 0;
+  outline: none; 
+  border-width: 2px; 
+  border: 1px solid #E3F1E7;
+  border-radius: 10px;
+}
+
+.input input,
+.input input:focus {
+  font-weight: 450;
+  width: 96%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 8px;
+  border-width: 0;
+  border-radius: 10px;
+  margin: 1vh 0 1vh 0;
+  outline: none; 
+  background-color: #E3F1E7;
+  border-color: #38A3A5;
+  border-width: 1px; 
+  outline: none;
+}
+
+
+.inputs:focus{
+  background-color: #E3F1E7;
+}
+
+.inputs:active{
+  background-color: #E3F1E7;
+}
+
+
+
+
+#forgotpass_Login{
+  margin-left:4vh ;
+}
+
+#forgot{
+  margin-right: 2vh;
+}
+
+.forgotlink{
+  color: #000000;
+}
+
+#error{
+  margin-left: 4vh;
+}
+
+#button_Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4vh;
+}
+
+.btn,.btn a {
+  margin: 0 10px;
+  padding: 1.2vh 2vh;
+  background: #38A3A5;
+  border-radius: 25px;
+  border: 0px;
+  color: #E3F1E7;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: background-color 0.5s, transform 0.5s ease;
+  text-decoration: none;
+}
+
+
+
+.btn:hover,.btn a:hover {
+  background: #2c7a7c; 
+  transform: scale(1.05); 
+}
+
+.btn:active,.btn a:active {
+  transform: scale(0.95); 
+}

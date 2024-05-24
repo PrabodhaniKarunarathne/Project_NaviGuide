@@ -1,0 +1,94 @@
+#infoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 130vh;
+  margin-top: 3vh;
+  padding-top: 2vh;
+}
+
+#detailscard1 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 2vh;
+  background-color: #E3F1E7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#detailscard2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+}
+#deleteacc{
+  background-color:#e60e0e ;
+  margin-left: 0;
+}
+
+
+.detailssubcard{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2vh;
+  background-color: #E3F1E7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.detailssubcarddelete{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 82%;
+  margin: 2vh 21vh;
+  background-color: #E3F1E7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#Updatesection hr{
+  border-top: 5px solid #38A3A5;
+
+}
+
+.topics {
+  margin-bottom: 2vh;
+}
+
+.topicitem {
+  font-weight: 600;
+  color: #112d3f;
+  margin-bottom: 1vh;
+}
+
+.topicitemsocial{
+  font-weight: 600;
+  color: #112d3f;
+  margin-bottom: 1vh;
+  font-size: 15px;
+}
+
+.subtopicitem{
+  font-weight: 500;
+  color: #1a3a4e;
+  margin-bottom: 1vh;
+  font-size: large;
+}
+
+.topics h3 {
+  margin-bottom: 1vh;
+  color: #38A3A5;
+}
+
+address {
+  margin-bottom: 1vh;
+  color: #38A3A5;
+  
+}
+

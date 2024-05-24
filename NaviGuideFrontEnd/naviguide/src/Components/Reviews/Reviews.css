@@ -1,0 +1,49 @@
+.completeeventreview{
+    margin-left: 50px;
+}
+
+.namesandbtnreview  h1{
+    width: 1000px;
+
+}
+
+#reviewro{
+    height: 40px;
+}
+
+.topicandclose{
+    display: flex;
+}
+
+#closebtnreview{
+    background-color: ;
+}
+
+#closebtnreview{
+    background-color: #e60e0e;
+    width: 25vh;
+    margin-top: 1vh;
+    margin-left: 146vh;
+
+}
+
+#addeacc{
+    background-color:#38A3A5 ;
+    width: 25vh;
+    margin-top: 1vh;
+    margin-left: 145vh;
+    transition: background-color 0.5s, transform 0.5s ease;
+
+}
+
+#deleteacc:hover {
+    transform: scale(1.025);
+  }
+  
+  #deleteacc:active {
+    transform: scale(0.975); 
+  }
+  #deleteacc.active {
+    background: #2c7a7c; 
+    color: white; 
+  }

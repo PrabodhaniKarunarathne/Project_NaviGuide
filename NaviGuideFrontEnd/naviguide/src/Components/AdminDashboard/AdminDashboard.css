@@ -1,0 +1,276 @@
+.sidebar{
+  box-shadow: inset;
+  border-color: black;
+  display:block;
+  margin: 9vh 2vh 0vh 2vh;
+  width: 16.5%;
+  height: 89vh;
+  align-items: center;
+  flex: 0 0 15%; 
+
+}
+
+#closebtnnews{
+  background-color: #e60e0e;
+    width: 25vh;
+    margin-top: 1vh;
+    margin-left: 92.5vh;
+    align-self: right;
+}
+#deleteuseraccbtn{
+  background-color: #e60e0e;
+   
+}
+#ratingdivsearch{
+  height: 5vh;
+}
+
+#ratingadminview{
+  padding: 10px 0px 10px 0px;
+}
+#btnclassuseradmin{
+  margin-top: 2vh;
+}
+.listsearchadmin{
+  list-style: none;
+}
+#toprow{
+  display: flex;
+}
+#admininfo{
+  display: block;
+  
+}
+#namesandbtnnewshome{
+  width: 100vh;
+}
+
+.previewimage{
+  width:px;
+}
+
+#deleteadminbtn{
+  background-color: #e60e0e;
+    width: 40vh;
+    margin-top: 1.85vh;
+    margin-left: 18vh;
+    align-self: right;
+}
+
+#deleteuserbtn{
+  width: 25vh;
+  background-color: #e60e0e;
+
+
+}
+
+.imagesupload{
+  display: block;
+}
+
+#editadminbtnno{
+  width: 20vh;
+  margin-top: 1.85vh;
+  margin-left: 16vh;
+  align-self: right;
+}
+
+#deleteadminbtnyes{
+  background-color: #e60e0e;
+  width: 20vh;
+  margin-top: 1.85vh;
+  margin-left: 0.1vh;
+  align-self: right;
+}
+#editadminbtn{
+  width: 40vh;
+  margin-left: 2vh;
+}
+
+
+#publishnewsbtn{
+  margin: 1vh 0vh 2vh 38.5vh;
+  align-self: center;
+}
+
+
+
+.inputssinglenews{
+    width:117vh;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 1vh 0 1vh 0;
+    outline: none; 
+    border-width: 2px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.inputssingleadminadd{
+  width:136vh;
+  background-color: #E3F1E7;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 1vh 0 1vh 0;
+    outline: none; 
+    border-width: 2px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.adminaddrow{
+  width: 95%;
+}
+.cardadminaddrow{
+  display: block;
+}
+
+]
+
+.adminaddcontent{
+  padding: 1vh;
+}
+
+#searchformdiv{
+  margin-top: 1vh;
+}
+
+#admindashboard {
+  display: flex; 
+}
+
+#cardshead{
+  text-align: left;
+  padding-left: 3vh;
+}
+
+#homeboxcontainer{
+  display: flex;
+  width: 100%;
+  margin-left: 2vh;
+ 
+}
+
+#searchinAdmin{
+  width: 180vh;}
+
+
+.homebox{
+  text-align: left;
+  margin: 2vh 2vh 2vh 2vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #E3F1E7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+
+}
+
+hr{
+  border-top: 5px solid #38A3A5;
+
+}
+
+#maincontent {
+  flex: 1; 
+  margin-top: 9vh;
+  width: 180vh;
+}
+
+
+#pveventstopics{
+  display: flex;
+}
+
+#topicadmin{
+  margin-left: 0;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #E3F1E7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.adminlist{
+  list-style: none;
+}
+.divs{
+
+}
+#newsbtns{
+  width:30%;
+}
+
+#divnewsbtns{
+  display: flex;
+  width: 100%;
+  margin-left: 12%;
+}
+.sidebarbtn {
+  padding: 1.2vh 2vh;
+  margin: 2vh 7vh 0vh 7vh;
+  width: 100%; /* Set the width to fill the sidebar */
+  background: #38A3A5;
+  border-radius: 25px;
+  border: 0px;
+  color: #E3F1E7;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: background-color 0.5s, transform 0.5s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebardiv{
+  display: block;
+}
+
+
+
+.sidebarbtn:hover {
+  transform: scale(1.025);
+}
+
+.sidebarbtn:active {
+  transform: scale(0.975); 
+}
+.sidebarbtn.active {
+  background: #2c7a7c; 
+  color: white; 
+}
+
+#AdminRegisterFormDiv{
+  padding-top: 1vh;
+  border-width: 2px;
+  width: 80%;
+  height: 80vh;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.107);
+  border-radius: 20px;
+  margin-top: 0.25vh;
+  margin-top: 3vh;
+
+  margin-left: 17vh;
+  background-color:#E3F1E7 ;
+  align-self: center;
+  
+}
+
+#newsrow{
+  margin-left: 4vh;
+  margin-right: 2vh;
+}
+

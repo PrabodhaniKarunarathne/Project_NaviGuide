@@ -1,0 +1,40 @@
+.contact-details {
+    text-align: center; /* Center-align the content */   
+  }
+  
+  .contact-info, .social-media {
+    margin-bottom: 15px; /* Margin between sections */
+    
+  }
+  
+  .contact-info h2, .social-media h2 {
+    font-size: 1rem; /* Slightly larger font size for headers */
+    margin-bottom: 10px; /* Margin below headers */
+    color: #045891;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+  }
+  
+  .contact-info p, .social-media a {
+    margin: 5px 0; /* Margin between paragraphs and links */
+    text-align: center;
+  }
+  
+  .social-media a {
+    display: inline-block; /* Make links inline-block for better styling */
+    margin: 5px; /* Margin between links */
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* No underline */
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info, .social-media {
+      text-align: left; /* Align text to the left on smaller screens */
+    }
+  }
+  
